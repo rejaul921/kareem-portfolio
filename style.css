@@ -60,6 +60,7 @@ nav a {
     background-position: bottom right;
 
 }
+
 /* banner goes here */
 .banner {
     padding: 30px 30px 0px 150px;
@@ -83,10 +84,12 @@ nav a {
     font-size: 50px;
     font-weight: 600;
 }
-.bp{
+
+.bp {
     margin-bottom: 10px;
 }
-.banner-contant{
+
+.banner-contant {
     max-width: 500px;
     background-image: url(./images/developer.png);
     background-repeat: no-repeat;
@@ -94,23 +97,52 @@ nav a {
     background-position: bottom left;
     padding-left: 71px;
 }
-.main-container{
+
+.main-container {
     padding: 130px 230px;
 }
-.about_me{
+
+.about_me {
     padding: 131px 157px;
     background-color: #FFF8F3;
     text-align: center;
 }
-.myinfo{
+
+.myinfo {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     align-items: center;
 }
-.info-dis{
+
+.info-dis {
     text-align: center;
 }
-.title{
+
+.title {
     padding-top: 10px;
+}
+
+.what-i-do {
+    text-align: center;
+}
+
+.ido {
+    display: flex;
+    margin-top: 50px;
+}
+
+.expertise {
+    background-color: #FFF8F3;
+    background-color: ;
+    margin-right: 24px;
+    padding: 25px;
+}
+
+.ido-img {
+    width: 40px;
+    height: 44px;
+}
+.expertise >h4 ,p{
+    padding-top: 20px;
 }
