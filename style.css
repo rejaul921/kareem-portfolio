@@ -100,6 +100,7 @@ nav a {
 
 .main-container {
     padding: 130px 230px;
+    align-items: center;
 }
 
 .about_me {
@@ -125,6 +126,7 @@ nav a {
 
 .what-i-do {
     text-align: center;
+    margin-top: 130px;
 }
 
 .ido {
@@ -144,4 +146,20 @@ nav a {
 }
 .expertise >h4 ,p{
     padding-top: 20px;
+}
+.my-resume{
+    align-items: center;
+    text-align: center;
+    margin-top: 130px;
+}
+.resume{
+    display: flex;
+    margin-top: 113px;
+}
+.educucaton{
+    padding: 30px;
+    text-align: left;
+}
+.University{
+    margin-top: 20px;
 }
