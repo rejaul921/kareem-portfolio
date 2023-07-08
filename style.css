@@ -60,11 +60,12 @@ nav a {
     background-position: bottom right;
 
 }
-
+/* banner goes here */
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner .profile {
@@ -72,16 +73,44 @@ nav a {
 }
 
 .banner-greeting {
-    font-size: 45px;
+    font-size: 20px;
     color: #474747;
     margin-bottom: 0;
 }
 
 .banner-title {
     margin-top: 5px;
-    font-size: 85px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 600;
 }
 .bp{
     margin-bottom: 10px;
+}
+.banner-contant{
+    max-width: 500px;
+    background-image: url(./images/developer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+    padding-left: 71px;
+}
+.main-container{
+    padding: 130px 230px;
+}
+.about_me{
+    padding: 131px 157px;
+    background-color: #FFF8F3;
+    text-align: center;
+}
+.myinfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.info-dis{
+    text-align: center;
+}
+.title{
+    padding-top: 10px;
 }
